@@ -15,6 +15,6 @@ int main()
 	counter=counter+1;
 	printf("Enter number of instructions:");
 	scanf("%d",&ins);
-	performance_measure=ins/counter;performance_measure;
+	performance_measure=ins/counter;
 	printf("performance measure:%d",performance_measure);
 }
